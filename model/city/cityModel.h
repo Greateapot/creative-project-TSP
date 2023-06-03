@@ -25,7 +25,7 @@ public:
 
     QString name;
 
-    size_t index_TSP = INF; // это поле используется один раз, можно обойтись и без него, но так проще ;)
+    size_t index_TSP = INF;
     double mark_DXTR = INF;
     bool is_selected = 0;
     bool is_visited = 0;
